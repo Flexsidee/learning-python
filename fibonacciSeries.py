@@ -14,6 +14,7 @@ def fibonacci(n):
         fib_next = result[k+1] + result[k]
         result.append(fib_next)
     
-    print(result)
+    return result
 
-fibonacci(10) #this will list fibonacci of the first 10 terms
+fib = fibonacci(10)
+print(fib) #print the first 10 terms of the fibonacci series
