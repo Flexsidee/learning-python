@@ -31,8 +31,7 @@ def numericalDifferences(x, y):
     print("d3y = " + str(d3y))
     print("d4y = " + str(d4y))
     print("d5y = " + str(d5y))
-    if(len(y) > 6): print("d6y = " + str(d6y) + "\n")
-    else: print("d6y = [] \n")
+    print("d6y = " + str(d6y) + "\n") if(len(y) > 6) else print("d6y = [] \n")
     
     print( "\nFirst derivative = " + str(firstDerivative))
     print( "Second derivative = " + str(secondDerivate) + "\n")
